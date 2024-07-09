@@ -4,6 +4,9 @@
   width: 80%;
   margin: 0 auto;
 }
+a {
+  text-decoration: none;
+}
 .navbar {
   display: flex;
   align-items: center;
@@ -23,7 +26,6 @@
   border-radius: 4px;
 }
 .navbar a {
-  text-decoration: none;
   color: #0d1321;
 }
 
@@ -62,7 +64,6 @@
   margin-bottom: 1.7rem;
 }
 .header a {
-  text-decoration: none;
   color: white;
 }
 .header button {
@@ -73,4 +74,68 @@
   background: #0d1321;
   border-radius: 4px;
   /* margin: 1.7rem ; */
+}
+
+/* ------------------why web-------------- */
+.why_web {
+  margin-top: 4rem;
+  background: #f7f7fa;
+  padding: 3rem 0;
+  text-align: center;
+}
+.why_inner {
+  width: 86%;
+  margin: 0 auto;
+}
+.why_inner h3 {
+  font-family: "Azeret Mono", monospace;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 1.7rem 0;
+}
+.why_inner > p {
+  margin: 0 3rem;
+  color: #7e7e7e;
+  font-size: 14px;
+  font-family: "Azeret Mono", monospace;
+  font-weight: 300;
+}
+.why_card {
+  display: flex;
+  margin: 2rem 0rem;
+  padding: 2rem 3rem;
+  background: white;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.why_card_l {
+  text-align: start;
+  width: 50%;
+  color: #0d1321b2;
+  font-family: "Azeret Mono", monospace;
+}
+.why_card_l h4 {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  margin: 0;
+}
+.why_card_l p {
+  font-size: 14px;
+  line-height: 1.3rem;
+  margin: 1rem 0;
+}
+.why_card_l button {
+  background: none;
+  border: 1px solid #0d1321b2;
+  padding: 0.8rem;
+  font-size: 15px;
+}
+.why_card_l a {
+  color: #0d1321b2;
+  font-family: "Azeret Mono", monospace;
+}
+.why_card_r img {
+  width: 90%;
+  text-align: end;
 }
